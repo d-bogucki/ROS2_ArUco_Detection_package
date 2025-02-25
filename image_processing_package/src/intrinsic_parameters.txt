@@ -1,0 +1,49 @@
+This .txt contains the contents of two different calibration processes.
+Copy and paste the one you need inside the "intrinsic_parameter.xml" file, so the
+aruco detection node can read it and use it correctly.
+
+------------------------------------------------------------------------------------------
+1) CIF (jpeg quality = 10), # immagini = 10, RMS = 0.248334 aspect ratio = NOT_FIXED
+
+<?xml version="1.0"?>
+<opencv_storage>
+<camera_matrix type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    3.7666823121635781e+02 0. 2.0376278790475928e+02 0.
+    3.7731613871574791e+02 1.4843155417018596e+02 0. 0. 1.</data></camera_matrix>
+<distortion_coefficients type_id="opencv-matrix">
+  <rows>1</rows>
+  <cols>5</cols>
+  <dt>d</dt>
+  <data>
+    -8.2896208960111878e-02 4.6237676166317004e-01
+    1.4796218361886467e-03 -1.1538297034233815e-03
+    -1.1119225962464043e+00</data></distortion_coefficients>
+</opencv_storage>
+
+------------------------------------------------------------------------------------------
+2) SVGA (jpeg quality = 35), # immagini = 10, RMS = 0.3740 aspect ratio = NOT_FIXED
+
+<?xml version="1.0"?>
+<opencv_storage>
+<camera_matrix type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    7.5750412117724397e+02 0. 4.1252287993795801e+02 0.
+    7.5641279617745181e+02 2.9504907833820090e+02 0. 0. 1.</data></camera_matrix>
+<distortion_coefficients type_id="opencv-matrix">
+  <rows>1</rows>
+  <cols>5</cols>
+  <dt>d</dt>
+  <data>
+    -4.7305490088971794e-02 1.7164489214942327e-01
+    1.9873887872986582e-03 7.9144323332017001e-04
+    -2.5468017126036868e-01</data></distortion_coefficients>
+</opencv_storage>
+
+
